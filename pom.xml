@@ -4,7 +4,7 @@
   <groupId>de.nrw.lav.dips.rscon</groupId>
   <artifactId>rscon</artifactId>
   <packaging>jar</packaging>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <name>Rendition Server Command Line PDF/A Converter</name>
   <url>http://maven.apache.org</url>
   <properties>

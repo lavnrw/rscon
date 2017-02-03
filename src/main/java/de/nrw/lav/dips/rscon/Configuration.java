@@ -11,7 +11,7 @@ import java.util.Collection;
 
 final class Configuration {
     private final static String PROG_NAME = "rscon";
-    private final static String PROG_VERSION = "0.1.0";
+    private final static String PROG_VERSION = "0.1.1";
     @Parameter(names = {"-h", "--help"},
             description = "show this help message", help = true)
     private Boolean showHelp = false;
@@ -38,7 +38,7 @@ final class Configuration {
     private String outputFilePath = null;
     private File outputFile;
     @Parameter(names = {"-d", "--output-directory", "--destination"},
-            description = "output directory")
+            description = "output directory for the converted PDF/A files")
     private String outputDirectoryPath = "pdfa";
     private File outputDirectory;
     @Parameter(names = "--carter", hidden = true,
