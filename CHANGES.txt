@@ -1,0 +1,15 @@
+# Release 0.1.2 (2017-04-05)
+
+When writing converted files to an output directory their file extensions are
+now changed to .pdf, like in `file.docx -> pdfa/file.pdf`. This does not apply
+to single output files specified by the --output option.
+
+# Release 0.1.1 (2017-02-03)
+
+Help message clarification.
+
+# Release 0.1.0 (2017-02-03)
+
+Initial release, based on the rsval tool.
+
+<!-- vim: set filetype=markdown: -->
