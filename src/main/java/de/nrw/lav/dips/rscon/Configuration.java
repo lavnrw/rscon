@@ -12,7 +12,7 @@ import java.util.Collection;
 
 final class Configuration {
     private final static String PROG_NAME = "rscon";
-    private final static String PROG_VERSION = "0.1.1";
+    private final static String PROG_VERSION = "0.1.2";
     @Parameter(names = {"-h", "--help"},
             description = "show this help message", help = true)
     private Boolean showHelp = false;
