@@ -4,6 +4,7 @@ import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.ParameterException;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FilenameUtils;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -144,6 +145,7 @@ final class Configuration {
         if (inputFiles.size() == 1 && outputFile != null) {
             return outputFile;
         }
-        return new File(outputDirectory, input.toString());
+        return new File(outputDirectory,
+                FilenameUtils.removeExtension(input.toString()) + ".pdf");
     }
 }
