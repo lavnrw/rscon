@@ -16,7 +16,7 @@ public final class ConversionCLI {
     private Converter createConverter() {
         Converter c = new Converter();
         c.setServerURL("http://" + config.server() + "/Dxr.Interfaces");
-        c.setTimeoutCall(120);
+        c.setTimeoutCall(config.timeout());
         c.setTimeoutConnect(1);
         return c;
     }

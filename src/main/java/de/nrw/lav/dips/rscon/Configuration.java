@@ -12,7 +12,7 @@ import java.util.Collection;
 
 final class Configuration {
     private final static String PROG_NAME = "rscon";
-    private final static String PROG_VERSION = "0.1.2";
+    private final static String PROG_VERSION = "0.2.0";
     @Parameter(names = {"-h", "--help"},
             description = "show this help message", help = true)
     private Boolean showHelp = false;
@@ -22,6 +22,9 @@ final class Configuration {
             description = "name of the host running the rendition server",
             validateWith = HostNameValidator.class)
     private String server = "localhost";
+    @Parameter(names = "--timeout",
+            description = "timeout in seconds, increase in case of errors")
+    private int timeout = 120;
     @Parameter(names = {"-t", "--type"},
             description = "PDF/A type (1b, 2b)",
             validateWith = PdfaTypeValidator.class)
@@ -114,6 +117,10 @@ final class Configuration {
 
     String server() {
         return server;
+    }
+
+    int timeout() {
+        return timeout;
     }
 
     String pdfaType() {
