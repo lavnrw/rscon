@@ -17,5 +17,3 @@ Help message clarification.
 # Release 0.1.0 (2017-02-03)
 
 Initial release, based on the rsval tool.
-
-<!-- vim: set filetype=markdown: -->
