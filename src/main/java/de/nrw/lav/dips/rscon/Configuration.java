@@ -26,7 +26,7 @@ final class Configuration {
             description = "timeout in seconds, increase in case of errors")
     private int timeout = 120;
     @Parameter(names = {"-t", "--type"},
-            description = "PDF/A type (1b, 2b)",
+            description = "PDF/A type (1b, 2b, 2u)",
             validateWith = PdfaTypeValidator.class)
     private String pdfaType = "1b";
     @Parameter(names = {"-v", "--verbose"},

@@ -76,7 +76,7 @@ Usage: rscon [options] input files
       timeout in seconds, increase in case of errors
       Default: 120
     -t, --type
-      PDF/A type (1b, 2b)
+      PDF/A type (1b, 2b, 2u)
       Default: 1b
     -v, --verbose
       print more conversion details

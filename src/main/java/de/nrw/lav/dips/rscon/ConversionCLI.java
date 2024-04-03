@@ -22,8 +22,10 @@ public final class ConversionCLI {
     }
 
     private Report convert(File input, File output) {
-        String format = config.pdfaType().replace("1b", "PDFA").replace("2b",
-                "PDFA2B");
+        String format = config.pdfaType()
+            .replace("1b", "PDFA")
+            .replace("2b", "PDFA2B")
+            .replace("2u", "PDFA2U");
         Report.Result result;
         String details;
         if (output.getParentFile() != null) {

@@ -7,7 +7,7 @@ import java.util.Arrays;
 public final class PdfaTypeValidator implements IParameterValidator {
     public void validate(String name, String value)
         throws ParameterException {
-        String[] types = {"1b", "2b"};
+        String[] types = {"1b", "2b", "2u"};
         if (!Arrays.asList(types).contains(value)) {
             throw new ParameterException(String.format(
                         "PDF/A type for conversion must be one of %s.",
