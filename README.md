@@ -56,7 +56,7 @@ Convert `a.docx` into `pdfa/a.pdf`, using PDF/A-1b (default):
 
 ~~~console
 $ rscon --server rs.example.org a.docx
-FINISHED    PDF/A-2b    a.docx -> pdfa/a.pdf
+FINISHED    PDF/A-1b    a.docx -> pdfa/a.pdf
 ~~~
 
 Convert `a.docx` into `b.pdf`, using PDF/A-2b:

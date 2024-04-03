@@ -90,7 +90,7 @@ Konvertierung der Datei `a.docx` nach PDF/A-1b (default) als `pdfa/a.pdf`:
 
 ~~~console
 $ rscon --server rs.example.org a.docx
-FINISHED    PDF/A-2b    a.docx -> pdfa/a.pdf
+FINISHED    PDF/A-1b    a.docx -> pdfa/a.pdf
 ~~~
 
 Konvertierung der Datei `a.docx` nach PDF/A-2b als `b.pdf`:
