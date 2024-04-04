@@ -1,3 +1,10 @@
+# Release 0.3.0 (2024-04-04)
+
+Conversion into PDF/A-2u is now possible.
+
+Example wrapper scripts for Linux and Windows are provided. The documentation
+has been improved.
+
 # Release 0.2.0 (2019-02-01)
 
 Conversion timeout can now be configured via command line option `--timeout`.
