@@ -5,4 +5,4 @@
 :: parameters that were given to this wrapper script (in the %* variable). If
 :: you didn't save your JAR file at the specified location `C:\bin\rscon.jar`
 :: you have to adapt the path.
-@java -jar C:\_\rscon.jar %*
+@java -jar C:\bin\rscon.jar %*
