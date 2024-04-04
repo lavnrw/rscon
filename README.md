@@ -14,7 +14,7 @@ Prerequisites:
 
 The [provided JAR file `rscon.jar`][releases] contains all dependencies and can
 be executed directly, but the user experience may be improved by creating a
-wrapper script like the example in [script/rscon][script/rscon].
+wrapper script like the examples in the [script][script] directory.
 
 [releases]: http://example.org/TODO
 
