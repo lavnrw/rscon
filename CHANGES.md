@@ -1,3 +1,7 @@
+# Release 1.0.0 (2024-05-16)
+
+First public release.
+
 # Release 0.3.0 (2024-04-04)
 
 Conversion into PDF/A-2u is now possible.
