@@ -9,11 +9,11 @@
 # in file names when the Rendition Server is running on a Windows host.
 # export LANG=de_DE.ISO-8859-1
 
-# This line runs the rscon JAR file, threading through any command line
-# parameters that were given to this wrapper script (in the $@ variable). If
-# you didn't save your JAR file at the specified location `/opt/rs/rscon.jar`
-# you have to adapt the path.
-java -jar /opt/rs/rscon.jar "$@"
+# This line runs the rscon tool, threading through any command line parameters
+# that were given to this wrapper script (in the $@ variable). If you didn't
+# save your JAR files (usually, rscon.jar and dxrapi.jar) in the specified
+# directory `/opt/rs` you have to adapt the path.
+java -cp '/opt/rs/*' de.nrw.lav.dips.rscon.ConversionCLI "$@"
 
 # Use the following command instead if you like fancy colored terminal output.
-# java -jar /opt/rs/rscon.jar "$@" | grep -E --color '^(ERROR|FINISHED)|$'
+# java -cp '/opt/rs/*' de.nrw.lav.dips.rscon.ConversionCLI "$@" | grep -E --color '^(ERROR|FINISHED)|$'
