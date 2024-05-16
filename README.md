@@ -1,4 +1,4 @@
-# rscon - Rendition Server Command Line PDF/A Converter
+# rscon
 
 Command line client for the [SER Doxis4 Rendition Server][rs] PDF/A conversion
 features, based on the Rendition Server Java API.
@@ -25,7 +25,7 @@ Prerequisites:
 The actual installation depends on your environment. Save both JAR files in a
 directory that suites your taste (e.g., `/opt/rs` on Linux or `C:\bin\rs` on
 Windows). Then create a wrapper script to make the actual `rscon` command
-available; examples for Linux and Windows can be found in the [script][script]
+available; examples for Linux and Windows can be found in the [script](script)
 directory.
 
 [ser]: https://www.sergroup.com/en/
