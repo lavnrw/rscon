@@ -20,6 +20,12 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
+      <!-- Used by dxrapi. -->
+      <groupId>commons-httpclient</groupId>
+      <artifactId>commons-httpclient</artifactId>
+      <version>3.1</version>
+    </dependency>
+    <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
       <version>2.16.0</version>
